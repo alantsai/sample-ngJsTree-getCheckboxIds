@@ -1,0 +1,27 @@
+{
+  "name": "Test ng-jsTree",
+  "version": "0.0.1",
+  "authors": [
+    "Alan Tsai <alan@alantsai.net>"
+  ],
+  "description": "測試使用ng-jsTree的套件",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "jsTree",
+    "angularJs"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ng-js-tree": "~0.0.6"
+  }
+}
