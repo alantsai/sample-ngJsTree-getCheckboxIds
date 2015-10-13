@@ -7,8 +7,18 @@
 	<bod>
 		<div ng-app="app" ng-controller="jsTreeController">
 			<div id="jsTree" js-tree="treeConfig" 
-			ng-model="model.jsTreeData" 
-			tree="treeInstance"></div>
+				ng-model="model.jsTreeData" 
+				tree="treeInstance">
+			</div>
+			<br />
+			<div>
+				<button ng-click="updateCheckArray()">Update Checked Id</button>
+				
+				<br />
+				
+				checked id:
+				{{checkArray}}
+			</div>
 		</div>
 		<script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script src="bower_components/angular/angular.min.js"></script>

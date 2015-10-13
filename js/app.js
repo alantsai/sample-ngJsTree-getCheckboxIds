@@ -11,7 +11,17 @@ app.controller("jsTreeController", function ($scope) {
 			{ "id": "ajson4", "parent": "ajson2", "text": "Child 2" },
 		];
 		
-		$scope.treeConfig = {};
+		$scope.treeConfig = {
+			plugins:["checkbox"]
+		};
+		
+		$scope.treeInstance = {};
+		
+		$scope.checkArray = [];
+	}
+	
+	$scope.updateCheckArray = function(){
+		$scope.checkArray = $scope.treeInstance.jstree(true).get_selected();
 	}
 
 	$scope.init();
