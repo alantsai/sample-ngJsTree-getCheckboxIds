@@ -1,12 +1,19 @@
 <html>
 	<head>
 		<title>Test angularjs tree</title>
-		<script src="bower_components/angular/angular.js"></script>
-		<script src="js/app.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="bower_components/jstree/dist/themes/default/style.min.css">
 	</head>
 	<bod>
 		<div ng-app="app" ng-controller="jsTreeController">
-			{{1+1}}
+			<div id="jsTree" js-tree="treeConfig" 
+			ng-model="model.jsTreeData" 
+			tree="treeInstance"></div>
 		</div>
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="bower_components/jstree/dist/jstree.js"></script>
+		<script src="bower_components/ng-js-tree/dist/ngJsTree.js"></script>
+		<script src="js/app.js"></script>
 	</bod>
 </html>
