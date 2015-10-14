@@ -7,7 +7,7 @@
 這個範例使用checkbox plugin並且demo如何在按下一個按鈕的時候取得jstree
 所有勾選的節點Id。
 
-在plunker有一個demo頁：<http://embed.plnkr.co/0MIscF1YJAO9g1IjH04p/preview>
+在plunker有一個demo頁：<http://embed.plnkr.co/zi5Qgi/preview>
 
 ## 執行方式
 
